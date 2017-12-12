@@ -1,0 +1,301 @@
+<RCC>
+    <qresource prefix="/">
+        <file>topoIcons/3x74 (floor).jpg</file>
+        <file>topoIcons/10GE_FCoE.jpg</file>
+        <file>topoIcons/100baset hub.jpg</file>
+        <file>topoIcons/3174 (desktop).jpg</file>
+        <file>topoIcons/3200 mobile access router.jpg</file>
+        <file>topoIcons/6700 series.jpg</file>
+        <file>topoIcons/7500ars (7513).jpg</file>
+        <file>topoIcons/10700.jpg</file>
+        <file>topoIcons/15200.jpg</file>
+        <file>topoIcons/access gateway.jpg</file>
+        <file>topoIcons/accesspoint.jpg</file>
+        <file>topoIcons/ace.jpg</file>
+        <file>topoIcons/ACS.jpg</file>
+        <file>topoIcons/adm.jpg</file>
+        <file>topoIcons/androgenous person.jpg</file>
+        <file>topoIcons/antenna.jpg</file>
+        <file>topoIcons/asic processor.jpg</file>
+        <file>topoIcons/ASR 1000 Series.jpg</file>
+        <file>topoIcons/ata.jpg</file>
+        <file>topoIcons/atm 3800.jpg</file>
+        <file>topoIcons/atm fast gigabit etherswitch.jpg</file>
+        <file>topoIcons/atm router.jpg</file>
+        <file>topoIcons/atm switch.jpg</file>
+        <file>topoIcons/atm tag switch router.jpg</file>
+        <file>topoIcons/avs.jpg</file>
+        <file>topoIcons/AXP.jpg</file>
+        <file>topoIcons/bbfw media.jpg</file>
+        <file>topoIcons/bbfw.jpg</file>
+        <file>topoIcons/bbsm.jpg</file>
+        <file>topoIcons/branch office.jpg</file>
+        <file>topoIcons/breakout box.jpg</file>
+        <file>topoIcons/bridge.jpg</file>
+        <file>topoIcons/broadband router.jpg</file>
+        <file>topoIcons/bts 10200.jpg</file>
+        <file>topoIcons/cable modem.jpg</file>
+        <file>topoIcons/callmanager.jpg</file>
+        <file>topoIcons/car.jpg</file>
+        <file>topoIcons/carrier routing system.jpg</file>
+        <file>topoIcons/cddi-fddi.jpg</file>
+        <file>topoIcons/cdm.jpg</file>
+        <file>topoIcons/cellular phone.jpg</file>
+        <file>topoIcons/centri firewall.jpg</file>
+        <file>topoIcons/cisco 1000.jpg</file>
+        <file>topoIcons/cisco asa 5500.jpg</file>
+        <file>topoIcons/cisco ca.jpg</file>
+        <file>topoIcons/cisco file engine.jpg</file>
+        <file>topoIcons/cisco hub.jpg</file>
+        <file>topoIcons/cisco unified presence server.jpg</file>
+        <file>topoIcons/cisco unityexpress.jpg</file>
+        <file>topoIcons/ciscosecurity.jpg</file>
+        <file>topoIcons/ciscoworks.jpg</file>
+        <file>topoIcons/class 4_5 switch.jpg</file>
+        <file>topoIcons/cloud.jpg</file>
+        <file>topoIcons/communications server.jpg</file>
+        <file>topoIcons/contact center.jpg</file>
+        <file>topoIcons/content engine (cache director).jpg</file>
+        <file>topoIcons/content service router.jpg</file>
+        <file>topoIcons/content service switch 1100.jpg</file>
+        <file>topoIcons/content switch module.jpg</file>
+        <file>topoIcons/content switch.jpg</file>
+        <file>topoIcons/content transformation engine (cte).jpg</file>
+        <file>topoIcons/cs-mars.jpg</file>
+        <file>topoIcons/csm-s.jpg</file>
+        <file>topoIcons/csu_dsu.jpg</file>
+        <file>topoIcons/CUBE.jpg</file>
+        <file>topoIcons/detector.jpg</file>
+        <file>topoIcons/director-class fibre channel director.jpg</file>
+        <file>topoIcons/directory server.jpg</file>
+        <file>topoIcons/diskette.jpg</file>
+        <file>topoIcons/distributed director.jpg</file>
+        <file>topoIcons/dot-dot.jpg</file>
+        <file>topoIcons/dpt.jpg</file>
+        <file>topoIcons/dslam.jpg</file>
+        <file>topoIcons/dual mode ap.jpg</file>
+        <file>topoIcons/dwdm filter.jpg</file>
+        <file>topoIcons/end office.jpg</file>
+        <file>topoIcons/fax.jpg</file>
+        <file>topoIcons/fc storage.jpg</file>
+        <file>topoIcons/fddi ring.jpg</file>
+        <file>topoIcons/fibre channel disk subsystem.jpg</file>
+        <file>topoIcons/fibre channel fabric switch.jpg</file>
+        <file>topoIcons/file cabinet.jpg</file>
+        <file>topoIcons/file server.jpg</file>
+        <file>topoIcons/fileserver.jpg</file>
+        <file>topoIcons/firewall service module (fwsm).jpg</file>
+        <file>topoIcons/firewall.jpg</file>
+        <file>topoIcons/front end processor.jpg</file>
+        <file>topoIcons/gatekeeper.jpg</file>
+        <file>topoIcons/general applicance.jpg</file>
+        <file>topoIcons/generic building.jpg</file>
+        <file>topoIcons/generic gateway.jpg</file>
+        <file>topoIcons/generic processor.jpg</file>
+        <file>topoIcons/generic softswitch.jpg</file>
+        <file>topoIcons/gigabit switch atm tag router.jpg</file>
+        <file>topoIcons/government building.jpg</file>
+        <file>topoIcons/Ground terminal.jpg</file>
+        <file>topoIcons/guard.jpg</file>
+        <file>topoIcons/h.323.jpg</file>
+        <file>topoIcons/handheld.jpg</file>
+        <file>topoIcons/hootphone.jpg</file>
+        <file>topoIcons/host.jpg</file>
+        <file>topoIcons/hp mini.jpg</file>
+        <file>topoIcons/hub.jpg</file>
+        <file>topoIcons/iad router.jpg</file>
+        <file>topoIcons/ibm mainframe.jpg</file>
+        <file>topoIcons/ibm mini as400.jpg</file>
+        <file>topoIcons/ibm tower.jpg</file>
+        <file>topoIcons/icm.jpg</file>
+        <file>topoIcons/ics.jpg</file>
+        <file>topoIcons/intelliswitch stack.jpg</file>
+        <file>topoIcons/internet streamer.jpg</file>
+        <file>topoIcons/ios firewall.jpg</file>
+        <file>topoIcons/ios slb.jpg</file>
+        <file>topoIcons/ip communicator.jpg</file>
+        <file>topoIcons/ip dsl.jpg</file>
+        <file>topoIcons/ip phone.jpg</file>
+        <file>topoIcons/ip telephony router.jpg</file>
+        <file>topoIcons/ip.jpg</file>
+        <file>topoIcons/iptc.jpg</file>
+        <file>topoIcons/iptv content manager.jpg</file>
+        <file>topoIcons/iptv server.jpg</file>
+        <file>topoIcons/iscsi router.jpg</file>
+        <file>topoIcons/isdn switch.jpg</file>
+        <file>topoIcons/itp.jpg</file>
+        <file>topoIcons/jbod.jpg</file>
+        <file>topoIcons/key.jpg</file>
+        <file>topoIcons/keys.jpg</file>
+        <file>topoIcons/lan to lan.jpg</file>
+        <file>topoIcons/laptop.jpg</file>
+        <file>topoIcons/layer 2 remote switch.jpg</file>
+        <file>topoIcons/layer 3 switch.jpg</file>
+        <file>topoIcons/lightweight ap.jpg</file>
+        <file>topoIcons/line.png</file>
+        <file>topoIcons/localdirector.jpg</file>
+        <file>topoIcons/lock.jpg</file>
+        <file>topoIcons/longreach cpe.jpg</file>
+        <file>topoIcons/mac woman.jpg</file>
+        <file>topoIcons/macintosh.jpg</file>
+        <file>topoIcons/man_woman.jpg</file>
+        <file>topoIcons/mas gateway.jpg</file>
+        <file>topoIcons/mau.jpg</file>
+        <file>topoIcons/mcu.jpg</file>
+        <file>topoIcons/mdu.jpg</file>
+        <file>topoIcons/me 1100.jpg</file>
+        <file>topoIcons/Mediator.jpg</file>
+        <file>topoIcons/meetingplace.jpg</file>
+        <file>topoIcons/mesh ap.jpg</file>
+        <file>topoIcons/metro 1500.jpg</file>
+        <file>topoIcons/mgx 8000 multiservice switch.jpg</file>
+        <file>topoIcons/microphone.jpg</file>
+        <file>topoIcons/microwebserver.jpg</file>
+        <file>topoIcons/mini vax.jpg</file>
+        <file>topoIcons/mobile access ip phone.jpg</file>
+        <file>topoIcons/mobile access router.jpg</file>
+        <file>topoIcons/mobile streamer.jpg</file>
+        <file>topoIcons/modem.jpg</file>
+        <file>topoIcons/moh server.jpg</file>
+        <file>topoIcons/MSE.jpg</file>
+        <file>topoIcons/mulitswitch device.jpg</file>
+        <file>topoIcons/multi-fabric server switch.jpg</file>
+        <file>topoIcons/multilayer remote switch.jpg</file>
+        <file>topoIcons/mux.jpg</file>
+        <file>topoIcons/MXE.jpg</file>
+        <file>topoIcons/nac appliance.jpg</file>
+        <file>topoIcons/NCE router.jpg</file>
+        <file>topoIcons/NCE.jpg</file>
+        <file>topoIcons/netflow router.jpg</file>
+        <file>topoIcons/netranger.jpg</file>
+        <file>topoIcons/netsonar.jpg</file>
+        <file>topoIcons/network management.jpg</file>
+        <file>topoIcons/Nexus 1000.jpg</file>
+        <file>topoIcons/Nexus 2000.jpg</file>
+        <file>topoIcons/Nexus 5000.jpg</file>
+        <file>topoIcons/Nexus 7000.jpg</file>
+        <file>topoIcons/octel.jpg</file>
+        <file>topoIcons/ons15500.jpg</file>
+        <file>topoIcons/optical amplifier.jpg</file>
+        <file>topoIcons/optical services router.jpg</file>
+        <file>topoIcons/optical transport.jpg</file>
+        <file>topoIcons/pad x.28.jpg</file>
+        <file>topoIcons/pad.jpg</file>
+        <file>topoIcons/page icon.jpg</file>
+        <file>topoIcons/pbx switch.jpg</file>
+        <file>topoIcons/pbx.jpg</file>
+        <file>topoIcons/pc adapter card.jpg</file>
+        <file>topoIcons/pc man.jpg</file>
+        <file>topoIcons/pc routercard.jpg</file>
+        <file>topoIcons/pc software.jpg</file>
+        <file>topoIcons/pc video.jpg</file>
+        <file>topoIcons/pc.jpg</file>
+        <file>topoIcons/pda.jpg</file>
+        <file>topoIcons/phone.jpg</file>
+        <file>topoIcons/phone_fax.jpg</file>
+        <file>topoIcons/pix firewall.jpg</file>
+        <file>topoIcons/pmc.jpg</file>
+        <file>topoIcons/polyline.png</file>
+        <file>topoIcons/polyline1.png</file>
+        <file>topoIcons/printer.jpg</file>
+        <file>topoIcons/programmable switch.jpg</file>
+        <file>topoIcons/protocol translator.jpg</file>
+        <file>topoIcons/pxf.jpg</file>
+        <file>topoIcons/radio tower.jpg</file>
+        <file>topoIcons/ratemux.jpg</file>
+        <file>topoIcons/relational database.jpg</file>
+        <file>topoIcons/repeater.jpg</file>
+        <file>topoIcons/RF modem.jpg</file>
+        <file>topoIcons/route switch processor.jpg</file>
+        <file>topoIcons/router with silicon switch.jpg</file>
+        <file>topoIcons/router.jpg</file>
+        <file>topoIcons/router_firewall.jpg</file>
+        <file>topoIcons/routerin building.jpg</file>
+        <file>topoIcons/rpsrps.jpg</file>
+        <file>topoIcons/running man.jpg</file>
+        <file>topoIcons/safeharbor icon.jpg</file>
+        <file>topoIcons/sattelite dish.jpg</file>
+        <file>topoIcons/sattelite.jpg</file>
+        <file>topoIcons/scanner.jpg</file>
+        <file>topoIcons/server switch.jpg</file>
+        <file>topoIcons/server with router.jpg</file>
+        <file>topoIcons/service control.jpg</file>
+        <file>topoIcons/Service Module.jpg</file>
+        <file>topoIcons/Service router.jpg</file>
+        <file>topoIcons/Services.jpg</file>
+        <file>topoIcons/Set top box.jpg</file>
+        <file>topoIcons/simulitlayer switch.jpg</file>
+        <file>topoIcons/sip proxy werver.jpg</file>
+        <file>topoIcons/sitting woman.jpg</file>
+        <file>topoIcons/small business.jpg</file>
+        <file>topoIcons/small hub.jpg</file>
+        <file>topoIcons/softphone.jpg</file>
+        <file>topoIcons/softswitch pgw mgc.jpg</file>
+        <file>topoIcons/software based server.jpg</file>
+        <file>topoIcons/Space router.jpg</file>
+        <file>topoIcons/speaker.jpg</file>
+        <file>topoIcons/ssc.jpg</file>
+        <file>topoIcons/ssl terminator.jpg</file>
+        <file>topoIcons/standard host.jpg</file>
+        <file>topoIcons/standing man.jpg</file>
+        <file>topoIcons/standing woman.jpg</file>
+        <file>topoIcons/stb.jpg</file>
+        <file>topoIcons/storage router.jpg</file>
+        <file>topoIcons/storage server.jpg</file>
+        <file>topoIcons/stp.jpg</file>
+        <file>topoIcons/streamer.jpg</file>
+        <file>topoIcons/sun workstation.jpg</file>
+        <file>topoIcons/supercomputer.jpg</file>
+        <file>topoIcons/svx.jpg</file>
+        <file>topoIcons/system controller.jpg</file>
+        <file>topoIcons/tablet.jpg</file>
+        <file>topoIcons/tape array.jpg</file>
+        <file>topoIcons/tdm router.jpg</file>
+        <file>topoIcons/telecommuter house pc.jpg</file>
+        <file>topoIcons/telecommuter house.jpg</file>
+        <file>topoIcons/telecommuter icon.jpg</file>
+        <file>topoIcons/terminal.jpg</file>
+        <file>topoIcons/token.jpg</file>
+        <file>topoIcons/TP MCU.jpg</file>
+        <file>topoIcons/transpath.jpg</file>
+        <file>topoIcons/truck.jpg</file>
+        <file>topoIcons/turret.jpg</file>
+        <file>topoIcons/tv.jpg</file>
+        <file>topoIcons/ubr910.jpg</file>
+        <file>topoIcons/umg series.jpg</file>
+        <file>topoIcons/unity server.jpg</file>
+        <file>topoIcons/universal gateway.jpg</file>
+        <file>topoIcons/university.jpg</file>
+        <file>topoIcons/upc.jpg</file>
+        <file>topoIcons/ups.jpg</file>
+        <file>topoIcons/vault.jpg</file>
+        <file>topoIcons/video camera.jpg</file>
+        <file>topoIcons/vip.jpg</file>
+        <file>topoIcons/virtual layer switch.jpg</file>
+        <file>topoIcons/virtual switch controller (vsc3000).jpg</file>
+        <file>topoIcons/voice atm switch.jpg</file>
+        <file>topoIcons/voice commserver.jpg</file>
+        <file>topoIcons/voice router.jpg</file>
+        <file>topoIcons/voice switch.jpg</file>
+        <file>topoIcons/vpn concentrator.jpg</file>
+        <file>topoIcons/vpn gateway.jpg</file>
+        <file>topoIcons/VSD.jpg</file>
+        <file>topoIcons/VSS.jpg</file>
+        <file>topoIcons/wae.jpg</file>
+        <file>topoIcons/wavelength router.jpg</file>
+        <file>topoIcons/web browser.jpg</file>
+        <file>topoIcons/web cluster.jpg</file>
+        <file>topoIcons/wi-fi tag.jpg</file>
+        <file>topoIcons/wireless bridge.jpg</file>
+        <file>topoIcons/wireless location appliance.jpg</file>
+        <file>topoIcons/wireless router.jpg</file>
+        <file>topoIcons/wireless transport.jpg</file>
+        <file>topoIcons/wireless.jpg</file>
+        <file>topoIcons/wism.jpg</file>
+        <file>topoIcons/wlan controller.jpg</file>
+        <file>topoIcons/workgroup director.jpg</file>
+        <file>topoIcons/workgroup switch.jpg</file>
+        <file>topoIcons/workstation.jpg</file>
+        <file>topoIcons/www server.jpg</file>
+    </qresource>
+</RCC>
