@@ -12,3 +12,14 @@
 
 2.拓扑图操作及运行流程：
 
+搭建环境：
+（1）mingw版本Qt（qt4.8+mingw482）
+教程：http://blog.csdn.net/tech2ipo/article/details/71988984?utm_source=itdadao&utm_medium=referral
+文件：F:\迅雷下载\前半生\mingw版本Qt
+
+（2）graphviz 2.6
+
+(3)调用源码
+https://github.com/nbergont/qgv
+
+

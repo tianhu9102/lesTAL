@@ -33,9 +33,9 @@ TopologyPainter::~TopologyPainter(){
  */
 void TopologyPainter::setIconType(unsigned int type, unsigned int width, unsigned int height){
     //判断该类型的图标是否存在?
-    list<int>::iterator it = find(this->commonIconTypes.begin(), this->commonIconTypes.end(), type); // 查找list中是否有元素type
-    if (it != this->commonIconTypes.end()){//存在该类型图标
 
+    list<unsigned int>::iterator it = find(this->commonIconTypes.begin(), this->commonIconTypes.end(), type); // 查找list中是否有元素type
+    if (it != this->commonIconTypes.end()){//存在该类型图标
         list<TopologyIcon *>::iterator testiterator;
         for (testiterator = this->commonIcons.begin(); testiterator != this->commonIcons.end(); ++testiterator)
         {
@@ -59,10 +59,10 @@ void TopologyPainter::setIconType(unsigned int type, unsigned int width, unsigne
  * 输出：大于0代表图标标识，由程序自动分配；小于等于0代表添加失败
  */
 int TopologyPainter::addIcon(unsigned int type){
-
+    this->fullIconName="";
     int temp = -1; //默认添加失败
     //判断该类型的图标是否存在?
-    list<int>::iterator it = find(this->commonIconTypes.begin(), this->commonIconTypes.end(), type); // 查找list中是否有元素type
+    list<unsigned int>::iterator it = find(this->commonIconTypes.begin(), this->commonIconTypes.end(), type); // 查找list中是否有元素type
 
     if (it != this->commonIconTypes.end()){ //数据库中存在该类型图标
         list<TopologyIcon *>::iterator testiterator;
@@ -80,6 +80,9 @@ int TopologyPainter::addIcon(unsigned int type){
                 icon->setW(kk->w());//......
                 icon->setH(kk->h());
 
+                //根据type获取fullname
+                this->fullIconName= kk->getIconPath();
+
                 this->allContainIcons.push_back(icon); //画布中现有图标添加更新
                 this->allContainIconIds.push_back(this->idIcon); //画布中现有图标标识更新
                 cout<<"+++++++++++++++++++++addIcon success,iconType: "<<type<<", iconId:" <<temp<<" w:"<<icon->w()<<" h:"<<icon->h()<<endl;
@@ -93,6 +96,10 @@ int TopologyPainter::addIcon(unsigned int type){
     }
 
     return temp;
+}
+
+string TopologyPainter::getFullIconName(){
+    return this->fullIconName;
 }
 
 /*
@@ -332,4 +339,8 @@ void TopologyPainter::printLineIds(){
     cout <<endl;
     cout <<"========================================"<<endl;
     cout <<endl;
+}
+
+list<unsigned int> TopologyPainter::getAllContainIconIds(){
+    return this->allContainIconIds;
 }

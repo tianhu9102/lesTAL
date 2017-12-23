@@ -5,10 +5,10 @@
 #include <stdio.h>
 #include <iostream>
 #include <map>
+#include <algorithm>
 
 #include "TopologyLine.h"
 #include "TopologyIcon.h"
-
 
 class TopologyPainter
 {
@@ -26,7 +26,7 @@ private:
 
     //存储库图标
     list<TopologyIcon *> commonIcons;//数据库中图标元素
-    list<int> commonIconTypes;//数据库中图标类型
+    list<unsigned int> commonIconTypes;//数据库中图标类型
 
     list<TopologyIcon *> allContainIcons;//画布中现有图标
     list<unsigned int> allContainIconIds;//画布中现有图标ids
@@ -39,6 +39,9 @@ private:
 
     //自动分派的画布中连线标识
     int idLine;
+
+    //
+    string fullIconName;
 
 public:
     TopologyPainter();
@@ -60,6 +63,10 @@ public:
     void printIconIds();
     void printLines();
     void printLineIds();
+
+    list<unsigned int> getAllContainIconIds();
+
+    string getFullIconName();
 
 };
 

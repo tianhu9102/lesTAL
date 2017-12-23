@@ -4,7 +4,11 @@
 #include "TopologyIcon.h"
 #include "TopologyLine.h"
 #include <list>
+#include <qdebug.h>
+#include <QDir>
+#include <QStringList>
 
+using namespace std;
 class Tools
 {
 private:

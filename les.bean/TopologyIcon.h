@@ -1,7 +1,9 @@
 #ifndef TOPOLOGYICON_H
 #define TOPOLOGYICON_H
+#include <string>
 
 
+using namespace std;
 class TopologyIcon
 {
 
@@ -14,6 +16,10 @@ private:
     //---------------
     unsigned int _w;
     unsigned int _h;
+
+    //...
+    string iconPath;
+    string name;
 
 public:
     TopologyIcon();
@@ -39,6 +45,11 @@ public:
     unsigned int h();	//获取图标宽
     void setH(unsigned int h);	//设置图标宽
 
+    void setIconPath(string iconPath);
+    string getIconPath();
+
+    void setName(string name);
+    string getName();
 };
 
 #endif // TOPOLOGYICON_H

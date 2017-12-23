@@ -75,3 +75,20 @@ unsigned int TopologyIcon::h(){
 void TopologyIcon::setH(unsigned int h){
     this->_h = h;
 }
+
+
+void TopologyIcon::setIconPath(string iconPath){
+    this->iconPath = iconPath;
+}
+
+string TopologyIcon::getIconPath(){
+    return this->iconPath;
+}
+
+
+void TopologyIcon::setName(string name){
+    this->name = name;
+}
+string TopologyIcon::getName(){
+    return this->name;
+}

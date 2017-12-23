@@ -2,7 +2,6 @@
 #define TOPOLOGYPOINT_H
 
 
-
 using namespace std;
 class TopologyPoint
 {

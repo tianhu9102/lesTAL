@@ -8,13 +8,22 @@
 #include <QGraphicsItem>
 #include <QListWidgetItem>
 #include <QGraphicsView>
+#include "QGraphicsViewEc.h"
+#include "IconWidget.h"
 
-#include "MyWidget.h"
+#include "QGVNode.h"
+#include "QGVScene.h"
+#include "QGVEdge.h"
+#include "QGVSubGraph.h"
+
+#include <QGraphicsItem>
+#include <QMessageBox>
+#include "QTableWidgetTp.h"
 
 using namespace std;
 
 namespace Ui {
-class MainGUI;
+    class MainGUI;
 }
 
 class MainGUI : public QMainWindow
@@ -25,7 +34,6 @@ public:
     explicit MainGUI(QWidget *parent = 0);
     ~MainGUI();
 
-
     void setInitParameters();
     void setConStructs();
     void setConnections();
@@ -33,21 +41,22 @@ public:
 private:
     Ui::MainGUI *ui;
 
-    MyWidget* listWidget;
-
-    QGraphicsView *view;
-    QGraphicsScene *scene;
-
-
-    QString iconPath;
+    IconWidget* listWidget;
+    QGraphicsViewEc* view;
+    QGVScene *scene;
+    QGraphicsViewEc* viewEc;
 
 public slots:
-
-
-
+    void addPolyLine();
     void addLine();
-    void addLine1();
 
+    void okCompute();
+    void resetCompute();
+
+    void nodeContextMenu(QGVNode *node);
+    void nodeDoubleClick(QGVNode *node);
+
+    void openModel2();
 };
 
 #endif // MAINGUI_H

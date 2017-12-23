@@ -4,22 +4,31 @@
  * function: store the base icons and lines
  * @brief Tools::Tools
  */
+
 Tools::Tools()
 {
-    //初始化时即加载部分预设的图标元素
-    TopologyIcon *icon1 = new TopologyIcon();
-    icon1->setType(677834);
-    TopologyIcon *icon2 = new TopologyIcon();
-    icon2->setType(53);
-    TopologyIcon *icon3 = new TopologyIcon();
-    icon3->setType(25);
-    TopologyIcon *icon4 = new TopologyIcon();
-    icon4->setType(653);
+    //获取图标库
+    QDir dir(":topoIcons");
+    QStringList filters;
+    //filters << "*.jpg"<<"*.png";//设置过滤类型
+    filters << "*.jpg";//
+    dir.setNameFilters(filters);//设置文件名的过滤
+    QFileInfoList list = dir.entryInfoList();
 
-    this->commonIcons.push_back(icon1);
-    this->commonIcons.push_back(icon2);
-    this->commonIcons.push_back(icon3);
-    this->commonIcons.push_back(icon4);
+    qDebug()<<"icons::: "<<list.size();
+    if(list.length()!=0)
+        for (int i = 1; i <= list.size(); ++i){
+            TopologyIcon *icon1 = new TopologyIcon();
+            icon1->setType(i);
+            icon1->setW(40);
+            icon1->setH(30);
+            icon1->setName(list.at(i-1).fileName().split(".")[0].toStdString());
+            icon1->setIconPath( ":/topoIcons/"+list.at(i-1).fileName().toStdString());
+            this->commonIcons.push_back(icon1);
+        }
+    else {
+        qDebug()<<"no file";
+    }
 }
 
 list<TopologyIcon *> Tools::getDatabaseIcons(){
